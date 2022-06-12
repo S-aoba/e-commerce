@@ -100,7 +100,7 @@ const Product = ({
 
   return (
     <div className="card w-96 mx-8 bg-base-100">
-      <Link to={`/detailMac/${info.productName}`}>
+      <Link to={`/e-commerce/detailMac/${info.productName}`}>
         <figure>
           <img className="inline h-full" src={info.imgURL} alt="MacBook" />
         </figure>

@@ -23,7 +23,7 @@ const DetailPage = ({
     const newSubTotal = Number(num) * macInfo.price;
     setDetailSubTotal(newSubTotal);
   }, [num]);
-  
+
   useEffect(() => {
     const hasF = favoriteList.indexOf(macInfo);
     if (hasF !== -1) setFavorite(true);
@@ -144,7 +144,7 @@ const DetailPage = ({
           <div className="flex flex-col">
             {favorite ? onFavorite : ofFavorite}
             {cartFlag ? hasCart : notHasCart}
-            <Link to={'/cart'} className="flex justify-end">
+            <Link to={'/e-commerce/cart'} className="flex justify-end">
               <button className="btn">カートに進む</button>
             </Link>
           </div>

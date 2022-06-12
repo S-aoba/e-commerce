@@ -146,7 +146,7 @@ const IPhoneDetailPage = ({
           <div className="flex flex-col">
             {favorite ? onFavorite : ofFavorite}
             {cartFlag ? hasCart : notHasCart}
-            <Link to={'/cart'} className="flex justify-end">
+            <Link to={'/e-commerce/cart'} className="flex justify-end">
               <button className="btn">カートに進む</button>
             </Link>
           </div>

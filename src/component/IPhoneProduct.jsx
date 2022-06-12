@@ -101,7 +101,7 @@ const IPhoneProduct = ({
 
   return (
     <div className="card w-96 mx-8 bg-base-100">
-      <Link to={`/detailIPhone/${info.productName}`}>
+      <Link to={`/e-commerce/detailIPhone/${info.productName}`}>
         <figure>
           <img className="inline h-full" src={info.imgURL} alt="MacBook" />
         </figure>

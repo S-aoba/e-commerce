@@ -1,4 +1,3 @@
-import { useState, useEffect } from 'react';
 import { Favorite } from './index';
 
 const FavoritePage = ({

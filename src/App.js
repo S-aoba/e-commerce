@@ -17,10 +17,10 @@ function App() {
     <div className="h-auto w-screen bg-gray-100">
       <Router>
         <Header />
-        <div className='h-screen bg-gray-100'>
+        <div className="h-screen bg-gray-100">
           <Routes>
             <Route
-              path={'/'}
+              path={'/e-commerce'}
               element={
                 <ProductPage
                   displayMac={displayMac}
@@ -43,7 +43,7 @@ function App() {
               }
             ></Route>
             <Route
-              path={'/favorite'}
+              path={'/e-commerce/favorite'}
               element={
                 <FavoritePage
                   favoriteList={favoriteList}
@@ -58,7 +58,7 @@ function App() {
               }
             ></Route>
             <Route
-              path={'/cart'}
+              path={'/e-commerce/cart'}
               element={
                 <CartPage
                   cartList={cartList}
@@ -73,7 +73,7 @@ function App() {
               }
             ></Route>
             <Route
-              path={'/detailMac/:mac'}
+              path={'/e-commerce/detailMac/:mac'}
               element={
                 <MacDetailPage
                   favoriteList={favoriteList}
@@ -88,7 +88,7 @@ function App() {
               }
             ></Route>
             <Route
-              path={'/detailIPhone/:iphone'}
+              path={'/e-commerce/detailIPhone/:iphone'}
               element={
                 <IPhoneDetailPage
                   favoriteList={favoriteList}
