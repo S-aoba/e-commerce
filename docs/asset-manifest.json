@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/e-commerce/static/css/main.386d4599.css",
+    "main.js": "/e-commerce/static/js/main.4c9d834e.js",
+    "static/js/787.46493d11.chunk.js": "/e-commerce/static/js/787.46493d11.chunk.js",
+    "static/media/m2mba.jpg": "/e-commerce/static/media/m2mba.e59080d21049e97af46d.jpg",
+    "static/media/m1mba.jpeg": "/e-commerce/static/media/m1mba.af9742852834880314b7.jpeg",
+    "static/media/m2mbp13.jpeg": "/e-commerce/static/media/m2mbp13.86993aedca0b6ec288a2.jpeg",
+    "static/media/m1mbp14.jpg": "/e-commerce/static/media/m1mbp14.54ffba432a12900b358a.jpg",
+    "static/media/iPhone12.jpg": "/e-commerce/static/media/iPhone12.e7a0ce31702e5e0b1664.jpg",
+    "static/media/iPhone13pro.jpg": "/e-commerce/static/media/iPhone13pro.6b454d3f84c63f62fb08.jpg",
+    "static/media/iPhone13.jpg": "/e-commerce/static/media/iPhone13.c94738553e47588b4632.jpg",
+    "static/media/iPhoneSE.jpg": "/e-commerce/static/media/iPhoneSE.149a5c1945fa5b97265a.jpg",
+    "index.html": "/e-commerce/index.html",
+    "main.386d4599.css.map": "/e-commerce/static/css/main.386d4599.css.map",
+    "main.4c9d834e.js.map": "/e-commerce/static/js/main.4c9d834e.js.map",
+    "787.46493d11.chunk.js.map": "/e-commerce/static/js/787.46493d11.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.386d4599.css",
+    "static/js/main.4c9d834e.js"
+  ]
+}
