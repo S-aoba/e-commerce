@@ -35,6 +35,7 @@ const Cart = ({
   useEffect(() => {
     // cartListが削除されると該当のIDのカートの個数も更新する
     setNum(productNumList[id]);
+    setSubTotal(subTotalList[id]);
   }, [cartList]);
 
   const handleNumber = (e) => {
